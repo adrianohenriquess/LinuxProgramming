@@ -1,0 +1,34 @@
+Chapter 1: Getting Started
+#gcc -c bill.c fred.c 
+Compilar dois arquivos que não tem o metodo main
+
+#gcc -c program.c 
+Compilando o arquivo program.c
+
+#gcc -o program program.o bill.o
+gerando o executavel 
+
+#ar crv libfoo.a bill.o fred.o 
+ar cria uma lib estatica .a com bill.o e fred.o
+
+#gcc -o program program.o libfoo.a 
+cria o executavel com a libfoo.a
+ 
+# gcc -o program program.o -L. -lfoo
+Mesma coisa, mas com uma abreviatura -lfoo, ou alguma lib.so shared
+caso nao encontre
+
+#nm libfoo.a 
+mostra as definições de metodo que foram utilizadas na libfoo.a
+
+#ldd program
+ldd mostra quais são as libs compartilhadas necessárias para a execução do 
+program
+
+man gcc
+info gcc
+info g++
+#manuais dos compiladores
+
+Chapter 2: Shell Programming
+
