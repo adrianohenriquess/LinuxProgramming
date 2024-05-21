@@ -30,5 +30,15 @@ info gcc
 info g++
 #manuais dos compiladores
 
-Chapter 2: Shell Programming
+Chapter 3: working with files
+#compilar um fonte e gerar um executavel
+gcc copy_stdio.c -o copy_stdio
+
+#TIMEFORMAT="" time ./copy_stdio
+Executando dessa forma, podemos ver o tempo que o programa leva para copiar o arquivo no diretorio
+
+
+
+
+
 
