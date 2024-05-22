@@ -37,6 +37,10 @@ gcc copy_stdio.c -o copy_stdio
 #TIMEFORMAT="" time ./copy_stdio
 Executando dessa forma, podemos ver o tempo que o programa leva para copiar o arquivo no diretorio
 
+rodar o printdir com um diretorio dinamico passado por parametro
+e com more
+#./printdir2 /usr/local | more
+
 
 
 
